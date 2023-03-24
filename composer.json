@@ -1,5 +1,5 @@
 {
-    "name": "phpspec/prophecy-phpunit",
+    "name": "housfy/prophecy-phpunit",
     "description": "Integrating the Prophecy mocking library in PHPUnit test cases",
     "keywords": ["Phpunit", "Prophecy"],
     "homepage": "http://phpspec.net",
@@ -16,7 +16,7 @@
     "require": {
         "php": "^7.3 || ^8",
         "phpspec/prophecy": "^1.3",
-        "phpunit/phpunit":"^9.1"
+        "phpunit/phpunit":"^9.1 | ^10.0"
     },
     "autoload": {
         "psr-4": {
